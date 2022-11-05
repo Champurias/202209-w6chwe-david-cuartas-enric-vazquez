@@ -4,7 +4,9 @@ import { Provider } from "react-redux";
 import { store } from "./app/store";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "./index.css";
+import "normalize.css";
+import "@fontsource/coda";
+import MainStyle from "./style/MainStyle";
 
 const container = document.getElementById("root")!;
 const root = createRoot(container);
@@ -12,6 +14,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
+      <MainStyle />
       <App />
     </Provider>
   </React.StrictMode>
