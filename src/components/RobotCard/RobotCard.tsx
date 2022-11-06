@@ -16,9 +16,6 @@ const robotCard = ({ robot }: RobotCardProps): JSX.Element => {
         height="155"
         width="150"
       />
-
-      <Button text="Modify robot" action={() => {}} />
-      <Button text="Delete robot" action={() => {}} />
     </RobotCardStyled>
   );
 };
