@@ -10,9 +10,14 @@ body {
   font-family: Coda, cursive;
 }
 
+h1,
+h2 {
+  margin:0;
+}
+
 button {
   cursor: pointer;
-  padding: 8px 12px;
+  padding: 10px 12px;
   border: none;
   font-family: inherit;
 }

@@ -1,5 +1,6 @@
 import { Robot } from "../../redux/features/types";
 import Button from "../Button/Button";
+import RobotCardStyled from "./styledRobotCard";
 
 interface RobotCardProps {
   robot: Robot;
@@ -7,7 +8,7 @@ interface RobotCardProps {
 
 const robotCard = ({ robot }: RobotCardProps): JSX.Element => {
   return (
-    <article className="card">
+    <RobotCardStyled className="card">
       <h2 className="card__title">{robot.name}</h2>
       <img
         src={robot.imageUrl}
@@ -15,9 +16,10 @@ const robotCard = ({ robot }: RobotCardProps): JSX.Element => {
         height="155"
         width="150"
       />
+
       <Button text="Modify robot" action={() => {}} />
       <Button text="Delete robot" action={() => {}} />
-    </article>
+    </RobotCardStyled>
   );
 };
 
