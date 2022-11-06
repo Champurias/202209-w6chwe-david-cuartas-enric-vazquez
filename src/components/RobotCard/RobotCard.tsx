@@ -1,5 +1,4 @@
 import { Robot } from "../../redux/features/types";
-import Button from "../Button/Button";
 import RobotCardStyled from "./styledRobotCard";
 
 interface RobotCardProps {
