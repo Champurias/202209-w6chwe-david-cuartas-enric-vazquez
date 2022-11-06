@@ -21,6 +21,12 @@ button {
   border: none;
   font-family: inherit;
 }
+
+ul { 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 `;
 
 export default MainStyle;
