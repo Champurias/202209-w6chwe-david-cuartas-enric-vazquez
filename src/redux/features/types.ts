@@ -1,10 +1,11 @@
 export interface Robot {
-  name: String;
-  imageUrl: String;
+  id: string;
+  name: string;
+  imageUrl: string;
   stats: {
-    speed: Number;
-    endurenace: Number;
-    createAt: Number;
+    speed: number;
+    endurenace: number;
+    createAt: number;
   };
 }
 
