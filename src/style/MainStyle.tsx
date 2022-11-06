@@ -9,6 +9,13 @@ body {
   margin: 0;
   font-family: Coda, cursive;
 }
+
+button {
+  cursor: pointer;
+  padding: 8px 12px;
+  border: none;
+  font-family: inherit;
+}
 `;
 
 export default MainStyle;
