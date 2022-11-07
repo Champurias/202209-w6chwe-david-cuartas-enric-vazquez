@@ -5,6 +5,7 @@ const StyledRobotList = styled.ul`
   flex-direction: column;
   align-items: center;
   gap: 15px;
+  padding: 50px 30px;
 `;
 
 export default StyledRobotList;

@@ -4,7 +4,7 @@ export interface Robot {
   imageUrl: string;
   stats: {
     speed: number;
-    endurenace: number;
+    endurance: number;
     createAt: number;
   };
 }
