@@ -6,7 +6,7 @@ describe("Given the robotsReducer", () => {
     test("Then should return a new state", () => {
       const expectRobotsList: Robots = [
         {
-          id: "",
+          _id: "",
           name: "",
           imageUrl: "",
           stats: {

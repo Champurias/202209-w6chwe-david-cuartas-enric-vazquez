@@ -2,7 +2,7 @@ import { Robots } from "../redux/features/types";
 
 export const mockRobotsList: Robots = [
   {
-    id: "",
+    _id: "",
     name: "",
     imageUrl: "",
     stats: {
@@ -13,7 +13,7 @@ export const mockRobotsList: Robots = [
   },
 
   {
-    id: "",
+    _id: "",
     name: "",
     imageUrl: "",
     stats: {

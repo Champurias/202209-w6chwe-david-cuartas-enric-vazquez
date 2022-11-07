@@ -6,7 +6,7 @@ describe("Given a RobotCard component", () => {
   describe("when is rendered with the robot 'Hulio'", () => {
     test("Then it should show  a level 2 heading with 'Hulio and imagen", () => {
       const robot: Robot = {
-        id: "",
+        _id: "",
         name: "Hulio",
         imageUrl: "",
         stats: {

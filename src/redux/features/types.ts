@@ -1,5 +1,5 @@
 export interface Robot {
-  id: string;
+  _id: string;
   name: string;
   imageUrl: string;
   stats: {
