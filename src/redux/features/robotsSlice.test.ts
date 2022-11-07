@@ -11,7 +11,7 @@ describe("Given the robotsReducer", () => {
           imageUrl: "",
           stats: {
             speed: 3,
-            endurenace: 3,
+            endurance: 3,
             createAt: 2,
           },
         },

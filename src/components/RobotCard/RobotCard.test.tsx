@@ -11,7 +11,7 @@ describe("Given a RobotCard component", () => {
         imageUrl: "",
         stats: {
           speed: 3,
-          endurenace: 9,
+          endurance: 9,
           createAt: 2,
         },
       };
